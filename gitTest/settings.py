@@ -75,8 +75,8 @@ WSGI_APPLICATION = 'gitTest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mongodb',
-        'NAME': os.path.join(BASE_DIR, 'db.mongodb'),
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
