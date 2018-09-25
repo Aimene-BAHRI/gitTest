@@ -1,5 +1,5 @@
 
-"""igmo de merde"""
+"""hello world"""
 from django.conf.urls import url
 from django.contrib import admin
 
